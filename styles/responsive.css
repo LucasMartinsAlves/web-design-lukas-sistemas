@@ -1,0 +1,171 @@
+@media(max-width:900px) {
+  .header {
+    height: 76px;
+    padding: 0 24px
+  }
+
+  .logo {
+    width: auto
+  }
+
+  .logo strong {
+    font-size: 16px
+  }
+
+  .logo small {
+    font-size: 13px
+  }
+
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: auto;
+    background: none;
+    border: 0
+  }
+
+  .menu-button i {
+    width: 24px;
+    height: 2px;
+    background: #fff
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    background: #F7F6F4;
+    color: var(--ink);
+    flex-direction: column;
+    padding: 24px;
+    gap: 20px
+  }
+
+  .nav.open {
+    display: flex
+  }
+
+  .client-button {
+    display: none
+  }
+
+  .home {
+    height: 680px
+  }
+
+  .home-copy {
+    top: 220px;
+    width: min(700px, calc(100% - 48px));
+    text-align: center;
+    align-items: center;
+  }
+
+  .button {
+    width: 100%;
+    padding: 16px 0
+  }
+
+  .home h1 {
+    font-size: 48px;
+    line-height: 1
+  }
+
+  .services {
+    gap: 48px;
+    padding-top: 70px;
+    padding-bottom: 70px
+  }
+
+  .service-cards {
+    grid-template-columns: repeat(2, 1fr)
+  }
+
+  .mission,
+  .contact-section {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px
+  }
+
+  .mission-images {
+    display: none;
+  }
+
+  .solutions {
+    min-height: auto
+  }
+
+  .solution-row,
+  .solution-row.reverse {
+    height: auto;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .solution-row article,
+  .solution-row.reverse article {
+    padding: 28px 24px
+  }
+
+  .contact-info h2 {
+    font-size: 48px
+  }
+
+  .contact-item {
+    display: flex;
+    justify-items: center;
+    gap: 16px
+  }
+
+  .contact-form {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  footer {
+    height: auto;
+    padding: 30px 24px;
+    display: block
+  }
+
+  footer div {
+    display: none;
+  }
+
+  footer p {
+    text-align: center
+  }
+}
+
+@media(max-width:520px) {
+  .service-cards {
+    grid-template-columns: 1fr
+  }
+
+  .section-title h2 {
+    font-size: 34px
+  }
+
+  .mission-images {
+    height: 420px
+  }
+
+  .mission-images img {
+    height: 250px
+  }
+
+  .home h1 {
+    font-size: 42px
+  }
+
+  .contact-form h3 {
+    font-size: 34px
+  }
+}

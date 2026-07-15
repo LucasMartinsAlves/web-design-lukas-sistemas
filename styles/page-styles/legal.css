@@ -1,0 +1,55 @@
+﻿/* Extracted from services-page.css. */
+.legal-page {
+  min-height: 100vh;
+  background: var(--soft);
+}
+
+.legal-page .header {
+  justify-content: space-between;
+}
+
+.legal-page .logo {
+  width: auto;
+  flex-shrink: 0;
+}
+
+.legal-page .logo strong,
+.legal-page .logo small {
+  white-space: nowrap;
+}
+
+.legal-page .client-button {
+  margin-left: auto;
+}
+
+.legal-content {
+  width: min(760px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 140px 0 120px;
+}
+
+.legal-content h1 {
+  margin: 0 0 32px;
+  color: var(--ink);
+  font: 700 clamp(42px, 6vw, 72px) / 1.05 Playfair, serif;
+}
+
+.legal-content p:not(.services-eyebrow) {
+  max-width: 680px;
+  margin: 0 0 22px;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.legal-content .button {
+  margin-top: 18px;
+}
+
+.legal-home-link {
+  margin-left: 24px;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 600;
+}
+

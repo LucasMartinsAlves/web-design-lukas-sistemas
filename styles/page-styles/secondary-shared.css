@@ -1,0 +1,67 @@
+﻿/* Extracted from services-page.css. */
+.services-page {
+  background: var(--soft);
+}
+
+.services-page-content {
+  background: var(--soft);
+}
+
+.services-hero {
+  min-height: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 24px;
+}
+
+.services-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 18px;
+  color: var(--ink);
+  font: 400 18px/1.2 Playfair, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.services-eyebrow img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.services-hero h1 {
+  margin: 0;
+  color: var(--ink);
+  font: 700 clamp(44px, 6.6vw, 92px) / 1.08 Playfair, sans-serif;
+  letter-spacing: -0.065em;
+  text-align: center;
+}
+
+.services-hero h1>span {
+  display: block;
+  white-space: nowrap;
+}
+
+.services-hero h1 em {
+  color: #b7b7b7;
+  font-style: normal;
+}
+
+.services-hero-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 100px;
+  height: 90px;
+  background: var(--blue);
+  border-radius: 8px;
+}
+
+.services-hero-icon img {
+  width: 58%;
+  height: 58%;
+  object-fit: contain;
+}
+

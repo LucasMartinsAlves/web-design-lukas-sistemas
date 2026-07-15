@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Entre em contato com a Lukas Sistemas." />
+  <title>Contato | Lukas Sistemas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,400;5..1200,700&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/styles.css" />
+</head>
+
+<body class="services-page contact-page">
+  <header class="header header-dark"><a class="logo" href="../index.html#home"><img src="../assets/logo-lukas.svg"
+        alt="" /><span><strong>Lukas Sistemas</strong><small>Construção de software</small></span></a><button
+      class="menu-button" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
+    <nav class="nav"><a href="../index.html#missao">Quem somos</a><a href="services.html#servicos">Serviços</a><a
+        href="../index.html#solucoes">Portfólio</a><a href="contato.html" aria-current="page">Contato</a></nav><a
+      class="button client-button" href="contato.html">Área do Cliente</a>
+  </header>
+  <main>
+    <section class="services-hero contact-hero">
+      <p class="services-eyebrow"><img src="../assets/logo-lukas-blue.svg" alt="" /> Lukas Sistemas</p>
+      <h1><span>Vamos conversar</span><span>Sistema <strong class="services-hero-icon"><img
+              src="../assets/icons/ChartLine-up.svg" alt="" /></strong>
+          <em>Solução</em></span><span><em>Digital.</em></span></h1>
+    </section>
+    <section class="contact-links-section">
+      <div class="contact-links-heading">
+        <p class="services-eyebrow">Entre em contato</p>
+        <h2>Escolha o melhor<br /><em>caminho para você.</em></h2>
+        <p>Conte um pouco sobre o que você precisa. Podemos conversar sobre sistemas, sites, automações ou qualquer
+          desafio digital da sua empresa.</p>
+      </div>
+      <div class="contact-links-grid">
+        <a class="contact-link-card" href="https://wa.me/559999038283" target="_blank" rel="noopener"><img
+            src="../assets/icons/wpp-logo.svg" alt="" /><span><small>Fale com <span class="contact-person">Vitor</span></small><strong>WhatsApp</strong><b>Iniciar conversa</b></span></a>
+        <a class="contact-link-card" href="https://wa.me/559988357172" target="_blank" rel="noopener"><img
+            src="../assets/icons/wpp-logo.svg" alt="" /><span><small>Fale com <span class="contact-person">Igor</span></small><strong>WhatsApp</strong><b>Iniciar conversa</b></span></a>
+        <a class="contact-link-card contact-link-email" href="mailto:contato@lukas-sistemas.com.br">
+          <svg width="42" height="42" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M28 6H4C3.73478 6 3.48043 6.10536 3.29289 6.29289C3.10536 6.48043 3 6.73478 3 7V24C3 24.5304 3.21071 25.0391 3.58579 25.4142C3.96086 25.7893 4.46957 26 5 26H27C27.5304 26 28.0391 25.7893 28.4142 25.4142C28.7893 25.0391 29 24.5304 29 24V7C29 6.73478 28.8946 6.48043 28.7071 6.29289C28.5196 6.10536 28.2652 6 28 6ZM16 16.6437L6.57125 8H25.4287L16 16.6437ZM12.3387 16L5 22.7262V9.27375L12.3387 16ZM13.8188 17.3563L15.3188 18.7375C15.5032 18.9069 15.7446 19.0008 15.995 19.0008C16.2454 19.0008 16.4868 18.9069 16.6712 18.7375L18.1712 17.3563L25.4212 24H6.57125L13.8188 17.3563ZM19.6612 16L27 9.2725V22.7275L19.6612 16Z"
+              fill="black" />
+          </svg>
+
+          <span><small>Envie sua
+              mensagem</small><strong>contato@lukas-sistemas.com.br</strong><b>Enviar e-mail</b></span></a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div><a href="politics/aviso-legal.html">Aviso Legal</a><a href="politics/politica-privacidade.html">Política de Privacidade</a><a href="politics/politica-cookies.html">Política de Cookies</a><a
+        href="politics/canal-politica-interna.html">Canal de Política Interna</a></div>
+    <p>© 2026 Lukas Sistemas. Todos os direitos reservados.</p>
+  </footer>
+  <script>
+    const menuButton = document.querySelector('.menu-button');
+    const nav = document.querySelector('.nav');
+    menuButton.addEventListener('click', () => {
+      const open = menuButton.getAttribute('aria-expanded') === 'true';
+      menuButton.setAttribute('aria-expanded', String(!open));
+      nav.classList.toggle('open', !open);
+    });
+  </script>
+  <script src="../scripts/page-transition.js"></script>
+</body>
+
+</html>
+
+

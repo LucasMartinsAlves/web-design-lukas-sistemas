@@ -1,0 +1,36 @@
+.home {
+  height: 801px;
+  position: relative;
+  overflow: hidden;
+  background: #142026;
+  color: #fff
+}
+
+.home-photo {
+  position: absolute;
+  inset: 0;
+  background-image: url('../assets/hero-img.webp');
+  background-size: cover;
+  background-position: center
+}
+
+.home-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .1) 75%)
+}
+
+.home-copy {
+  position: absolute;
+  left: max(24px, calc((100% - 1196px)/2));
+  top: calc(50% - 93px);
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px
+}
+
+.home h1 {
+  font: 700 64px/60px Playfair, serif;
+  margin: 0
+}

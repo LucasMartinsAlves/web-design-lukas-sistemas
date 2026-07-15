@@ -1,0 +1,103 @@
+.contact-section {
+  min-height: 715px;
+  padding: 80px max(24px, calc((100% - 1200px)/2));
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px
+}
+
+.contact-info {
+  max-width: 588px
+}
+
+.contact-info h2 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin-bottom: 8px
+}
+
+.contact-info>p:not(.kicker) {
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.5
+}
+
+.contact-list {
+  border-top: 1px solid var(--ink);
+  margin-top: 32px;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px
+}
+
+.contact-icon {
+  display: inline-flex;
+  padding: 16px;
+  background-color: var(--blue);
+  border-radius: 999px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 16px
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-list b {
+  width: 180px;
+  font-size: 12px
+}
+
+.contact-list span {
+  font-size: 12px;
+  line-height: 1.7
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #F7F6F4;
+  color: var(--ink);
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  height: 100%
+}
+
+.contact-form h3 {
+  font: 700 40px/1.2 Playfair;
+  margin: 0 0 40px
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--ink);
+  color: var(--ink);
+  outline: 0;
+  padding: 10px 0;
+  font: inherit
+}
+
+.contact-form textarea {
+  height: 100px;
+  border: 1px solid var(--ink);
+  padding: 8px;
+  border-radius: 8px;
+  resize: none
+}
+
+.button-icon {
+  margin-right: 8px;
+  transition: transform .2s ease-in-out;
+}

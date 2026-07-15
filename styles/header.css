@@ -1,0 +1,88 @@
+.header {
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  display: flex;
+  align-items: center;
+  padding: 0 max(24px, calc((100% - 1196px)/2));
+  color: #fff
+}
+
+.header-dark {
+  position: relative;
+  width: min(calc(100% - 24px), 1224px);
+  margin: 0 auto;
+  padding: 0 24px;
+  background: var(--ink);
+  border-bottom-color: rgba(255, 255, 255, .2);
+  border-radius: 0 0 8px 8px;
+  color: var(--white);
+}
+
+.header-dark .nav a,
+.header-dark .logo strong,
+.header-dark .logo small {
+  color: var(--white);
+}
+
+.header-dark .logo img {
+  filter: brightness(0) invert(1);
+}
+
+.header-dark .menu-button i {
+  background: var(--white);
+}
+
+.logo {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  width: 243px
+}
+
+.logo img {
+  width: 40px;
+  height: 33px;
+  filter: brightness(0) invert(1)
+}
+
+.logo span {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.logo strong {
+  font-size: 20px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase
+}
+
+.logo small {
+  font: 16px/9px Playfair, serif;
+  letter-spacing: 1.6px;
+  white-space: nowrap
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-weight: 400;
+  font-size: 16px
+}
+
+.client-button {
+  margin-left: 24px;
+  background-color: #f5bd2d;
+}
+
+.menu-button {
+  display: none
+}

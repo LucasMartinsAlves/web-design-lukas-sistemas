@@ -1,0 +1,81 @@
+﻿/* Extracted from services-page.css. */
+.contact-links-section {
+  display: grid;
+  grid-template-columns: .85fr 1.15fr;
+  gap: 80px;
+  align-items: center;
+  padding: 120px max(24px, calc((100% - 1200px) / 2));
+  background: var(--white);
+}
+
+.contact-links-heading h2 {
+  margin: 0 0 24px;
+  color: var(--ink);
+  font: 700 clamp(36px, 5vw, 58px) / 1.1 Playfair, serif;
+}
+
+.contact-links-heading h2 em {
+  color: inherit;
+  font-style: normal;
+}
+
+.contact-links-heading > p:last-child {
+  max-width: 440px;
+  color: #666;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.contact-links-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.contact-link-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  transition: background .2s ease, transform .2s ease;
+}
+
+.contact-link-card:hover {
+  background: var(--soft);
+  transform: translateX(4px);
+}
+
+.contact-link-card > img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.contact-link-card > span {
+  display: grid;
+  gap: 4px;
+}
+
+.contact-link-card small {
+  color: #666;
+  font-size: 12px;
+}
+
+.contact-link-card .contact-person {
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.contact-link-card strong {
+  font-size: 20px;
+}
+
+.contact-link-card b {
+  margin-top: 8px;
+  color: var(--blue);
+  font-size: 13px;
+}
+
