@@ -32,6 +32,10 @@
   grid-template-columns: 1fr 2fr
 }
 
+.solution-row.reverse > .solution-card-link:first-child article {
+  color: var(--ink);
+}
+
 .solution-row article {
   display: flex;
   flex-direction: column;

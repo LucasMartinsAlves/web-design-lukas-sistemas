@@ -81,6 +81,7 @@
 .client-button {
   margin-left: 24px;
   background-color: #f5bd2d;
+  color: var(--ink);
 }
 
 .menu-button {
